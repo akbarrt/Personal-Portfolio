@@ -317,6 +317,22 @@ body {
   border-bottom: none;
 }
 
+/* Spotify Now Playing */
+.now-playing-section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.now-playing-widget {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.spotify-section {
+  margin-top: 30px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .header-content {

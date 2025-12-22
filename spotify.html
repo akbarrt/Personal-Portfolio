@@ -42,17 +42,37 @@
 
     <main class="main-content">
       <div class="container">
-        <div class="spotify-embed">
-          <iframe 
-            style="border-radius:12px" 
-            src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator&theme=0" 
-            width="100%" 
-            height="352" 
-            frameBorder="0" 
-            allowfullscreen="" 
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-            loading="lazy">
-          </iframe>
+        <!-- Now Playing Section -->
+        <div class="now-playing-section">
+          <h2 class="column-title">🎵 Now Playing</h2>
+          <p class="education-text">Just a bunch random stuff. Feel free to check them out!</p>
+          <div class="now-playing-widget">
+            <!-- Spotify Embed Widget -->
+
+            <!-- <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31w7m7qttlhmkznoiafs44sfdgzi&redirect=true" target="_blank"> -->
+              <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31w7m7qttlhmkznoiafs44sfdgzi&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=true&profanity=false&bar_color=53b14f&bar_color_cover=false&mode=dark" 
+                   alt="Now Playing on Spotify" 
+                   style="border-radius: 12px; max-width: 100%;">
+            </a>
+          </div>
+        </div>
+
+        <!-- Recently Played / Favorite Playlist -->
+        <div class="spotify-section">
+          <h2 class="column-title">🎧 My Playlist</h2>
+          <p class="education-text">List of my top tracks & current playing song</p>
+          <div class="spotify-embed">
+            <iframe 
+              style="border-radius:12px" 
+              src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator&theme=0" 
+              width="100%" 
+              height="352" 
+              frameBorder="0" 
+              allowfullscreen="" 
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+              loading="lazy">
+            </iframe>
+          </div>
         </div>
       </div>
     </main>
@@ -60,7 +80,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p class="copyright">© all rights reserved 2025</p>
+        <p class="copyright">© made with ❤️ by Akbarrt</p>
       </div>
     </footer>
 
