@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Spotify - What I'm listening to" />
+    <title>Spotify | Akbarrt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <div class="logo-icon"></div>
+          <span>Akbarrt</span>
+        </div>
+        <nav class="nav"> 
+          <a href="index.html" class="nav-link">Home</a>
+          <span class="nav-separator">/</span>
+          <a href="about.html" class="nav-link">About</a>
+          <span class="nav-separator">/</span>
+          <a href="blogs.html" class="nav-link">Blogs</a>
+          <span class="nav-separator">/</span>
+          <a href="projects.html" class="nav-link">Projects</a>
+          <span class="nav-separator">/</span>
+          <a href="spotify.html" class="nav-link active">Spotify</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Spotify Section -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">Spotify</h1>
+        <p class="hero-subtitle">What I'm currently listening to</p>
+      </div>
+    </section>
+
+    <main class="main-content">
+      <div class="container">
+        <div class="spotify-embed">
+          <iframe 
+            style="border-radius:12px" 
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator&theme=0" 
+            width="100%" 
+            height="352" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">© all rights reserved 2025</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
