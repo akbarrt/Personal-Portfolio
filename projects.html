@@ -6,20 +6,26 @@
     <meta name="description" content="Projects by Akbarrt" />
     <title>Projects | Akbarrt</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=JetBrains+Mono:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
-    <script src="pet_cursor.js"></script> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=JetBrains+Mono:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+      rel="stylesheet"
+    />
+    <script src="pet_cursor.js"></script>
   </head>
-  
+
   <body onload="startPetCursor();">
     <!-- Header -->
     <header class="header">
       <div class="container header-content">
         <div class="logo">
-          <div class="logo-icon"><img src="image.png" alt="logo"></div>
+          <div class="logo-icon"><img src="image.png" alt="logo" /></div>
           <span>Akbarrt</span>
         </div>
-        <nav class="nav"> 
+        <nav class="nav">
           <a href="index.html" class="nav-link">Home</a>
           <span class="nav-separator">/</span>
           <a href="about.html" class="nav-link">About</a>
@@ -43,17 +49,51 @@
 
     <main class="main-content">
       <div class="container">
-        <!-- <ul class="project-list">
-          <li class="project-item">HTML Only Portfolio</li>
-          <li class="project-item">Calculator</li>
-          <li class="project-item">Quiz App</li>
-          <li class="project-item">Countdown Timer</li>
-          <li class="project-item">Product Upcoming Page</li>
-        </ul> -->
-        <div class="review-card">
-          <h3 class="experience-company">404 | Not Found</h3>
-          <p class="experience-desc">Projects will be added here soon. Stay tuned!</p>
-        </div>  
+        <div class="projects-grid">
+          <!-- Project Card 1 - SIMORG -->
+          <div class="project-card">
+            <h3 class="project-title">SIMORG - Inventory Management</h3>
+            <p class="project-description">
+              Smart Inventory Management System for Organizations with CRUD operations, dashboard statistics, and CSV data persistence. Built with Java Swing GUI.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Swing</span>
+              <span class="tech-tag">OOP</span>
+              <span class="tech-tag">CSV</span>
+            </div>
+            <a href="https://github.com/akbarrt/simorg-java-inventory" target="_blank" class="project-link">View Project →</a>
+          </div>
+
+          <!-- Project Card 2 - SiLupa -->
+          <div class="project-card">
+            <h3 class="project-title">SiLupa - Harvest Dashboard</h3>
+            <p class="project-description">
+              Interactive React dashboard for managing agricultural harvests, stock inventory, storage capacity, and distribution flows with real-time analytics.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Vite</span>
+              <span class="tech-tag">Tailwind CSS</span>
+            </div>
+            <a href="https://github.com/akbarrt/SiLupa-Frontend" target="_blank" class="project-link">View Project →</a>
+          </div>
+
+          <!-- Project Card 3 - Library System -->
+          <div class="project-card">
+            <h3 class="project-title">Library Management System</h3>
+            <p class="project-description">
+              Team project for library management with features including book cataloging, borrowing & return system, and availability tracking.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">OOP</span>
+              <span class="tech-tag">Team Project</span>
+            </div>
+            <a href="https://github.com/akbarrt/LibrarySystem" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </div>
       </div>
     </main>
 
